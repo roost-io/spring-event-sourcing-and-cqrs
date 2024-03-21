@@ -52,7 +52,7 @@ Scenario 3: Persistent Value Return Test
 package com.baeldung.write.commands;
 
 import java.util.UUID;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import static org.junit.jupiter.api.Assertions.*; 
 
 class LeadClickOnPromotionalLinkGetIdOfLeadTest {

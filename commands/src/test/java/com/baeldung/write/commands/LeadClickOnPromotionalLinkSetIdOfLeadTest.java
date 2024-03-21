@@ -55,7 +55,7 @@ Solution: Implement proper input validation for all incoming data. Even though i
 package com.baeldung.write.commands;
 
 import java.util.UUID;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.assertNull;
