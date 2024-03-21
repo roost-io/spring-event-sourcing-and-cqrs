@@ -74,7 +74,7 @@ package com.baeldung.write.web;
 import com.baeldung.store.events.LeadCreated;
 import com.baeldung.store.service.EventStore;
 import com.baeldung.write.commands.CreateLead;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
