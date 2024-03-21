@@ -88,11 +88,13 @@ package com.baeldung.write.commands;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+
+import com.baeldung.infra.command.Command;
 
 import java.util.UUID;
 
-public class LeadClickOnPromotionalLinkEqualsTest {
+public class LeadClickOnPromotionalLinkEqualsTest  {
 
     @Test
     public void testEqualityOfSameObject() {
@@ -119,7 +121,7 @@ public class LeadClickOnPromotionalLinkEqualsTest {
         LeadClickOnPromotionalLink link = new LeadClickOnPromotionalLink();
         link.setIdOfLead(UUID.randomUUID());
 
-        Command dummyCommand = new Command();
+        Command dummyCommand = new Command(){};
        
         assertFalse(link.equals(dummyCommand));
     }

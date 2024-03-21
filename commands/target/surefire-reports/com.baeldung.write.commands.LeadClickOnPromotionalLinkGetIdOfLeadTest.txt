@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.write.commands.LeadClickOnPromotionalLinkGetIdOfLeadTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.baeldung.write.commands.LeadClickOnPromotionalLinkGetIdOfLeadTest
+initializationError(com.baeldung.write.commands.LeadClickOnPromotionalLinkGetIdOfLeadTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: The class com.baeldung.write.commands.LeadClickOnPromotionalLinkGetIdOfLeadTest is not public.
+
+initializationError(com.baeldung.write.commands.LeadClickOnPromotionalLinkGetIdOfLeadTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Test class should have exactly one public constructor
+

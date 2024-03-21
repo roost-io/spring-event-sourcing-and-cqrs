@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.write.web.CommandControllerLeadClickOnPromotionalLinkTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.baeldung.write.web.CommandControllerLeadClickOnPromotionalLinkTest
+testNullLeadClickOnPromotionalLinkObject(com.baeldung.write.web.CommandControllerLeadClickOnPromotionalLinkTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	UUID cannot be resolved
+	The method leadClickOnPromotionalLink(LeadClickOnPromotionalLink) is undefined for the type CommandControllerLeadClickOnPromotionalLinkTest
+	The method leadClickOnPromotionalLink(null) is undefined for the type CommandControllerLeadClickOnPromotionalLinkTest
+	The method leadClickOnPromotionalLink(LeadClickOnPromotionalLink) is undefined for the type CommandControllerLeadClickOnPromotionalLinkTest
+
+	at com.baeldung.write.web.CommandControllerLeadClickOnPromotionalLinkTest.<init>(CommandControllerLeadClickOnPromotionalLinkTest.java:91)
+
+testSaveLeadClickOnPromotionalLinkEvent(com.baeldung.write.web.CommandControllerLeadClickOnPromotionalLinkTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	UUID cannot be resolved
+	The method leadClickOnPromotionalLink(LeadClickOnPromotionalLink) is undefined for the type CommandControllerLeadClickOnPromotionalLinkTest
+	The method leadClickOnPromotionalLink(null) is undefined for the type CommandControllerLeadClickOnPromotionalLinkTest
+	The method leadClickOnPromotionalLink(LeadClickOnPromotionalLink) is undefined for the type CommandControllerLeadClickOnPromotionalLinkTest
+
+	at com.baeldung.write.web.CommandControllerLeadClickOnPromotionalLinkTest.<init>(CommandControllerLeadClickOnPromotionalLinkTest.java:91)
+
+testInvalidIdLeadClickOnPromotionalLinkObject(com.baeldung.write.web.CommandControllerLeadClickOnPromotionalLinkTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	UUID cannot be resolved
+	The method leadClickOnPromotionalLink(LeadClickOnPromotionalLink) is undefined for the type CommandControllerLeadClickOnPromotionalLinkTest
+	The method leadClickOnPromotionalLink(null) is undefined for the type CommandControllerLeadClickOnPromotionalLinkTest
+	The method leadClickOnPromotionalLink(LeadClickOnPromotionalLink) is undefined for the type CommandControllerLeadClickOnPromotionalLinkTest
+
+	at com.baeldung.write.web.CommandControllerLeadClickOnPromotionalLinkTest.<init>(CommandControllerLeadClickOnPromotionalLinkTest.java:91)
+

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.write.commands.LeadClickOnPromotionalLinkHashCodeTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.baeldung.write.commands.LeadClickOnPromotionalLinkHashCodeTest
+testHashCodeWithIdenticalObjects(com.baeldung.write.commands.LeadClickOnPromotionalLinkHashCodeTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.baeldung.write.commands.LeadClickOnPromotionalLink.setIdOfLead(java.util.UUID)" because "this.instance" is null
+	at com.baeldung.write.commands.LeadClickOnPromotionalLinkHashCodeTest.testHashCodeWithIdenticalObjects(LeadClickOnPromotionalLinkHashCodeTest.java:112)
+
+testHashCodeWithNonNullId(com.baeldung.write.commands.LeadClickOnPromotionalLinkHashCodeTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.baeldung.write.commands.LeadClickOnPromotionalLink.setIdOfLead(java.util.UUID)" because "this.instance" is null
+	at com.baeldung.write.commands.LeadClickOnPromotionalLinkHashCodeTest.testHashCodeWithNonNullId(LeadClickOnPromotionalLinkHashCodeTest.java:99)
+
+testHashCodeWithNullIdOfLead(com.baeldung.write.commands.LeadClickOnPromotionalLinkHashCodeTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.baeldung.write.commands.LeadClickOnPromotionalLink.hashCode()" because "this.instance" is null
+	at com.baeldung.write.commands.LeadClickOnPromotionalLinkHashCodeTest.testHashCodeWithNullIdOfLead(LeadClickOnPromotionalLinkHashCodeTest.java:89)
+

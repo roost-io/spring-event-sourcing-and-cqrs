@@ -90,7 +90,7 @@ package com.baeldung.write.commands;
 import com.baeldung.infra.command.Command;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class CreateLeadEqualsTest {
 

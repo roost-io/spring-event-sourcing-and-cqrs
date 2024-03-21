@@ -1,0 +1,4 @@
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/main/java/com/baeldung/write/commands/LeadClickOnPromotionalLink.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/main/java/com/baeldung/write/web/CommandController.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/main/java/com/baeldung/write/commands/CreateLead.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/main/java/com/baeldung/write/spring/CommandsApp.java

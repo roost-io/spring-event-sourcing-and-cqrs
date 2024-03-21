@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.write.web.CommandControllerCrateLeadTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 0.074 sec <<< FAILURE! - in com.baeldung.write.web.CommandControllerCrateLeadTest
+testLeadCreationWithEmptyName(com.baeldung.write.web.CommandControllerCrateLeadTest)  Time elapsed: 0.012 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The annotation @RequestBody is disallowed for this location
+
+	at com.baeldung.write.web.CommandControllerCrateLeadTest.testLeadCreationWithEmptyName(CommandControllerCrateLeadTest.java:118)
+
+testLeadCreationWithValidData(com.baeldung.write.web.CommandControllerCrateLeadTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The annotation @RequestBody is disallowed for this location
+
+	at com.baeldung.write.web.CommandControllerCrateLeadTest.testLeadCreationWithValidData(CommandControllerCrateLeadTest.java:103)
+
+testLeadCreationDataPersistence(com.baeldung.write.web.CommandControllerCrateLeadTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The annotation @RequestBody is disallowed for this location
+
+	at com.baeldung.write.web.CommandControllerCrateLeadTest.testLeadCreationDataPersistence(CommandControllerCrateLeadTest.java:126)
+
+testLeadCreationWithNullData(com.baeldung.write.web.CommandControllerCrateLeadTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <org.springframework.web.bind.MethodArgumentNotValidException> but was: <java.lang.NullPointerException>
+	at com.baeldung.write.web.CommandControllerCrateLeadTest.testLeadCreationWithNullData(CommandControllerCrateLeadTest.java:113)
+Caused by: java.lang.NullPointerException: Cannot invoke "com.baeldung.write.web.CommandController.crateLead(com.baeldung.write.commands.CreateLead)" because "this.commandController" is null
+	at com.baeldung.write.web.CommandControllerCrateLeadTest.lambda$0(CommandControllerCrateLeadTest.java:113)
+	at com.baeldung.write.web.CommandControllerCrateLeadTest.testLeadCreationWithNullData(CommandControllerCrateLeadTest.java:113)
+

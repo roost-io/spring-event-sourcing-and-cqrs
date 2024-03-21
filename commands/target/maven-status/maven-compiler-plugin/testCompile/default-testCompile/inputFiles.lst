@@ -1,0 +1,14 @@
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/test/CommandIntegrationTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/commands/CreateLeadHashCodeTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/test/CommandUnitTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/commands/CreateLeadSetNameTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/commands/LeadClickOnPromotionalLinkHashCodeTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/commands/LeadClickOnPromotionalLinkSetIdOfLeadTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/commands/LeadClickOnPromotionalLinkEqualsTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/web/CommandControllerLeadClickOnPromotionalLinkTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/web/CommandControllerCrateLeadTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/store/test/EventStoreIntegrationTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/commands/CreateLeadEqualsTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/CommandIntegrationSuite.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/commands/CreateLeadGetNameTest.java
+/workspaces/spring-event-sourcing-and-cqrs/commands/src/test/java/com/baeldung/write/commands/LeadClickOnPromotionalLinkGetIdOfLeadTest.java

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.write.commands.CreateLeadHashCodeTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.baeldung.write.commands.CreateLeadHashCodeTest
+validateHashCodeWhenNameIsNull(com.baeldung.write.commands.CreateLeadHashCodeTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Hashcode is not as expected when name is null ==> expected: <1> but was: <31>
+	at com.baeldung.write.commands.CreateLeadHashCodeTest.validateHashCodeWhenNameIsNull(CreateLeadHashCodeTest.java:84)
+

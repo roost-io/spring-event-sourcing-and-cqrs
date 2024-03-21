@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.write.commands.CreateLeadGetNameTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.baeldung.write.commands.CreateLeadGetNameTest
+testNameShouldReturnNumericName(com.baeldung.write.commands.CreateLeadGetNameTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.baeldung.write.commands.CreateLead.setName(String)" because "this.createLead" is null
+	at com.baeldung.write.commands.CreateLeadGetNameTest.testNameShouldReturnNumericName(CreateLeadGetNameTest.java:118)
+
+testNameShouldReturnCorrectName(com.baeldung.write.commands.CreateLeadGetNameTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.baeldung.write.commands.CreateLead.setName(String)" because "this.createLead" is null
+	at com.baeldung.write.commands.CreateLeadGetNameTest.testNameShouldReturnCorrectName(CreateLeadGetNameTest.java:96)
+
+testNameShouldReturnNameWithSpecialCharacters(com.baeldung.write.commands.CreateLeadGetNameTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.baeldung.write.commands.CreateLead.setName(String)" because "this.createLead" is null
+	at com.baeldung.write.commands.CreateLeadGetNameTest.testNameShouldReturnNameWithSpecialCharacters(CreateLeadGetNameTest.java:110)
+
+testNameShouldReturnNullIfNotSet(com.baeldung.write.commands.CreateLeadGetNameTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.baeldung.write.commands.CreateLead.getName()" because "this.createLead" is null
+	at com.baeldung.write.commands.CreateLeadGetNameTest.testNameShouldReturnNullIfNotSet(CreateLeadGetNameTest.java:103)
+
